@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/nlucky/PageManager.git", :tag => s.version.to_s }
 
-  s.source_files  = 'PageScrollManager/sources/*.swift'
+  s.source_files = 'sources/**/*.swift'
 
   s.dependency 'Fabric', '1.6.11'
   s.dependency 'Crashlytics', '3.8.4'
